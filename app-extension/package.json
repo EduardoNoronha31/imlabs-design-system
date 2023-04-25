@@ -1,0 +1,22 @@
+{
+  "name": "quasar-app-extension-imlabs-design-system",
+  "version": "0.0.1",
+  "description": "A design system created by the development team of IMLabs.",
+  "author": "Eduardo Noronha <eduardo.noronha@imlabs.com.br>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EduardoNoronha31/imlabs-design-system"
+  },
+  "bugs": "",
+  "homepage": "",
+  "dependencies": {
+    "quasar-ui-imlabs-design-system": "latest"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  }
+}
