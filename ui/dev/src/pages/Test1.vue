@@ -1,13 +1,6 @@
 <template>
   <q-page padding>
-    
-    <MyComponent />
-    
-    
-    <div v-my-directive class="directive-target">
-      x
-    </div>
-    
+    <IMLabsInput />
   </q-page>
 </template>
 

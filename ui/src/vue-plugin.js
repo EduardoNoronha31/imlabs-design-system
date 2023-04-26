@@ -1,16 +1,9 @@
-import Component from './components/Component'
-import Directive from './directives/Directive'
+import IMLabsInput from "./components/Input/IMLabsInput.js";
 
-const version = __UI_VERSION__
+const version = __UI_VERSION__;
 
-function install (app) {
-  app.component(Component.name, Component)
-  app.directive(Directive.name, Directive)
+function install(app) {
+  app.component(IMLabsInput.name, IMLabsInput);
 }
 
-export {
-  version,
-  Component,
-  Directive,
-  install
-}
+export { version, IMLabsInput, install };
